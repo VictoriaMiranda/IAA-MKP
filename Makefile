@@ -1,5 +1,5 @@
-tareamake: greedy.cpp
-	g++ -o greedy greedy.cpp
+tareamake: TS.cpp
+	g++ -o ts TS.cpp
 
 run:
-	./greedy
+	./ts gk/gk01.dat 9 100 2
